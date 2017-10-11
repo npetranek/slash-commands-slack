@@ -38,7 +38,7 @@ if($token != 'f3T5YBTgmDfA41rtNXdJ1wWa'){ #replace this with the token from your
 
 # isitup.org doesn't require you to use API keys, but they do require that any automated script send in a user agent string.
 # You can keep this one, or update it to something that makes more sense for you
-$user_agent = "IsitupForSlack/1.0 (https://github.com/npetranek/slashcommandsslack; npetranek95@gmail.com)";
+$user_agent = "slashcommandsslack/1.0 (https://github.com/npetranek/slashcommandsslack; npetranek95@gmail.com)";
 
 # We're just taking the text exactly as it's typed by the user. If it's not a valid domain, isitup.org will respond with a `3`.
 # We want to get the JSON version back (you can also get plain text).
